@@ -5,6 +5,10 @@
 		h1{
 			text-align:center
 		}
+		td{
+			border: 1px solid black;
+            padding: 1px;
+		}
 	</style>
 
 <head>
@@ -15,35 +19,40 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>HTML Assignment #3</h1>
-	<table class="middle" id="table-1">
+	<table id="table-1" class="middle">
 		<thead>
 			<th  id="t11">left</th>
 			<th id="t12">center</th>
-			<th id="t13">right</th>
+			<th id="t13" class="right">right</th>
 		</thead>
 		<tbody>
 			<tr>
 				<td>left</td>
 				<td>center</td>
-				<td>rigtht</td>
+				<td class="right">rigtht</td>
 			</tr>
 			<tr>
 				<td>left</td>
 				<td>center</td>
-				<td>rigtht</td>
+				<td class="right">rigtht</td>
 			</tr>
 			<tr>
 				<td>left</td>
 				<td>center</td>
-				<td>rigtht</td>
+				<td class="right">rigtht</td>
 			</tr>
 		</tbody>
 	</table>
-	<table class="table-2">
+	<table class="table-2" class="middle">
 		<thead>
 			<tr>
 				<th colspan="6">Header spanning 6 columns</th>
 			</tr>
+			<tr><th></th></tr>
+			<tr><th></th></tr>
+			<tr><th></th></tr>
+			<tr><th></th></tr>
+			<tr><th></th></tr>
 		</thead>
 		<tbody>
 			<tr>
@@ -105,6 +114,21 @@
 					<tr></tr>
 					<tr></tr>
 				</td>
+			</tr>
+		</tbody>
+	</table>
+	<table id="table-3" class="middle">
+		<thead style="background-color:green; border:1px solid black">
+			<tr>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"></td>
+			</tr>
+			<tr>
+				<td style="background-color:blue"></td>
 			</tr>
 		</tbody>
 	</table>
